@@ -1,8 +1,20 @@
 [
     {
+        "productName": "Onur Qoplon Alfido",
+        "productType": "book",
+        "barcode": "9789943208094",
+        "cost": 32000
+    },
+    {
         "productName": "Akrom Malik Jangchi",
         "productType": "book",
         "barcode": "9789943511767",
         "cost": 25000
+    },
+    {
+        "productName": "Nestle",
+        "productType": "milk",
+        "barcode": "4780042470035",
+        "cost": 32000
     }
 ]

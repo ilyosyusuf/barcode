@@ -9,11 +9,13 @@ class MyRoute {
   Route? onGenerateRoute(RouteSettings settings) {
     var args = settings.arguments;
     switch (settings.name) {
+      case '/home':
+        return _pages(const HomePage());
       default:
     }
   }
-    _pages(Widget page){
-      return MaterialPageRoute(builder: (context)=> page);
-    }
 
+  _pages(Widget page) {
+    return MaterialPageRoute(builder: (context) => page);
+  }
 }
