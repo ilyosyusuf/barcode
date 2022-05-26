@@ -9,8 +9,6 @@ class MyRoute {
   Route? onGenerateRoute(RouteSettings settings) {
     var args = settings.arguments;
     switch (settings.name) {
-      case '/home':
-        return _pages(HomePage());
       default:
     }
   }
