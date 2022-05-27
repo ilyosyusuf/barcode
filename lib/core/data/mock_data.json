@@ -16,5 +16,17 @@
         "productType": "milk",
         "barcode": "4780042470035",
         "cost": 32000
+    },
+    {
+        "productName": "DLoffice",
+        "productType": "pinner",
+        "barcode": "6972081865523",
+        "cost": 15000
+    },
+    {
+        "productName": "Red Pack",
+        "productType": "not given",
+        "barcode": "6921734916990",
+        "cost": 7000
     }
 ]

@@ -1,7 +1,11 @@
 import 'package:barcodeapp/config/routes/page_router.dart';
+import 'package:barcodeapp/services/firebase_service.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'BarCode',
       theme:
           ThemeData(useMaterial3: true, colorScheme: const ColorScheme.light()),
-      initialRoute: '/home',
+      initialRoute: "/signup",
       onGenerateRoute: MyRoute.instance.onGenerateRoute,
     );
   }

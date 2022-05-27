@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "594951302243",
+    "project_id": "barcode-d5513",
+    "storage_bucket": "barcode-d5513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594951302243:android:981d6298d821bff7ab5c56",
+        "android_client_info": {
+          "package_name": "com.ilyosyusuf.barcodeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594951302243-dettes722jcb5mo97atoimpeegkaf9tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilyosyusuf.barcodeapp",
+            "certificate_hash": "34211b00222312a5db9519501b2bf921bafd6fa9"
+          }
+        },
+        {
+          "client_id": "594951302243-hkgshpd772n6f0fdrq04djvviscrg78m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLp1hUh9dCI4FF-6wru4HZhCxgyNLRwVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594951302243-hkgshpd772n6f0fdrq04djvviscrg78m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
